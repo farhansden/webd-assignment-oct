@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern of Text</title>
+    <style>
+        .pattern-text {
+            font-size: 72px; /* Increased font size for larger text */
+            font-weight: bold;
+            color: transparent; /* Set color to transparent for gradient */
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient background */
+            -webkit-background-clip: text; /* Clip background to text */
+            background-clip: text; /* Clip background to text */
+            text-shadow: none; /* Remove text shadow for clarity */
+        }
+        .black-text {
+            color: black; /* Set text color to black for 'and' */
+            font-size: 42px;
+        }
+        body {
+            text-align: center; /* Center the text horizontally */
+        }
+    </style>
+</head>
+<body>
+    <div class="pattern-text">HTML <span class="black-text">and</span> CSS</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Document-level CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1cm; /* cm unit for padding */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2em; /* em unit for margin */
+}
+
+.product {
+    border: 0.5mm solid #ddd; /* mm unit for border */
+    border-radius: 0.5cm; /* cm unit for border radius */
+    width: 5in; /* in unit for width */
+    margin: 1pc; /* pc unit for margin */
+    text-align: center;
+    background-color: #fff;
+    padding: 10px; /* px unit for padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 0.5cm 0.5cm 0 0; /* cm unit for border radius */
+}
+
+.product h3 {
+    font-size: 16pt; /* pt unit for font size */
+    color: #333;
+}
+
+.product p {
+    font-size: 14px; /* px unit for font size */
+    color: #666;
+}
+
+.product a {
+    display: inline-block;
+    margin-top: 0.5em; /* em unit for margin */
+    padding: 10px 20px; /* px unit for padding */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.3cm; /* cm unit for border radius */
+}
+
+.product a:hover {
+    background-color: #555;
+}
+
+#special-offer {
+    border-color: gold;
+    background-color: #fffae6;
+}
+
+input:hover {
+    border: 2px solid #333;
+}

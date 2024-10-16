@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.container{
+        border: 3px double pink;
+        width: 500px;
+        height: 400px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+	.box1{
+        width:100px;
+        height:50px;
+        background-color: red;
+        display: flex;
+        margin-top: 50px;
+        transition: transform 0.1s ease;
+		transition
+    }
+    .box2{
+       width:100px;
+       height: 50px;
+       background-color:blue;
+       margin-top:30px;
+       transition: transform 0.3s ease; 
+        transform-origin: left; 
+    }
+    .box1:hover, .box2:hover {
+        transform: scaleX(1.25); 
+    }
+   </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>

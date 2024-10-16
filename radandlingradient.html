@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Circle and Rectangle</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+        }
+
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: radial-gradient(circle closest-side,
+                violet 0%, 
+                blue 20%, 
+                green 40%, 
+                yellow 60%, 
+                orange 80%, 
+                red 100%);
+            margin-bottom: 50px;
+        }
+
+        .rectangle {
+            width: 400px;
+            height: 100px;
+            background: linear-gradient(to right, 
+                blue 0%, 
+                rgb(189, 130, 238) 30%, 
+                rgb(236, 9, 240) 60%, 
+                red 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="rectangle"></div>
+</body>
+</html>
